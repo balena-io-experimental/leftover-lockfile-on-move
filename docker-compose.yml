@@ -1,0 +1,6 @@
+version: '2.4'
+
+services:
+  test:
+    build: ./
+    stop_signal: SIGKILL
